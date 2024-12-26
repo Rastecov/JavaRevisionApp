@@ -1,0 +1,1053 @@
+Question: Recursion
+What is recursion?
+1. A function calling another function.
+2. A function calling itself.
+3. A loop within a function.
+4. A method with a return statement.
+Answer: 2
+EASY
+
+Question: Recursion
+What is the base condition in recursion?
+1. A condition where the recursion terminates.
+2. A condition where the recursion continues infinitely.
+3. A condition for looping.
+4. None of the above.
+Answer: 1
+EASY
+
+Question: Recursion
+Which of the following problems is best solved using recursion?
+1. Binary Search
+2. Iterating over an array
+3. Tower of Hanoi
+4. Both 1 and 3
+Answer: 4
+EASY
+
+Question: Recursion
+What happens if a recursive function does not have a base condition?
+1. The function will execute successfully.
+2. The function will terminate normally.
+3. It will lead to a StackOverflowError.
+4. None of the above.
+Answer: 3
+EASY
+
+Question: ArrayList
+What is the default initial capacity of an ArrayList in Java?
+1. 5
+2. 10
+3. 15
+4. It depends on the JVM implementation
+Answer: 2
+EASY
+
+Question: ArrayList
+Which of the following is NOT a valid way to create an ArrayList in Java?
+1. ArrayList<String> list = new ArrayList<>();
+2. List<String> list = new ArrayList<>();
+3. ArrayList<String> list = new LinkedList<>();
+4. List<String> list = new LinkedList<>();
+Answer: 3
+MEDIUM
+
+Question: ArrayList
+Which of the following is a valid method to convert an ArrayList to an array?
+1. list.toArray();
+2. Arrays.toList();
+3. ArrayList.toArrayList();
+4. None of the above.
+Answer: 1
+EASY
+
+Question: LinkedList
+Which of the following is true about LinkedList in Java?
+1. It allows efficient random access to elements.
+2. It uses a dynamic array for storing elements.
+3. It uses nodes connected by pointers for storing elements.
+4. It cannot store duplicate elements.
+Answer: 3
+MEDIUM
+
+Question: Sorting_Algorithms
+Which sorting algorithm repeatedly selects the smallest element from the unsorted part of the list and places it at the beginning?
+1. Bubble Sort
+2. Selection Sort
+3. Merge Sort
+4. Quick Sort
+Answer: 2
+EASY
+
+Question: Sorting_Algorithms
+What is the time complexity of Heap Sort?
+1. O(n)
+2. O(n log n)
+3. O(n^2)
+4. O(log n)
+Answer: 2
+HARD
+
+Question: Sorting_Algorithms
+Which of the following algorithms is not comparison-based?
+1. Radix Sort
+2. Quick Sort
+3. Merge Sort
+4. Bubble Sort
+Answer: 1
+HARD
+
+Question: Binary_Search
+What is the time complexity of a binary search algorithm?
+1. O(1)
+2. O(n)
+3. O(n log n)
+4. O(log n)
+Answer: 4
+EASY
+
+Question: Binary_Search
+What is the primary requirement for applying binary search?
+1. The array must be sorted.
+2. The array must have unique elements.
+3. The array must have an even number of elements.
+4. None of the above.
+Answer: 1
+EASY
+
+Question: Binary_Search
+What is the best-case time complexity of binary search?
+1. O(1)
+2. O(n)
+3. O(log n)
+4. O(n^2)
+Answer: 1
+EASY
+
+Question: Exception_Handling
+Which exception is thrown if you access an array index that is out of bounds?
+1. IndexOutOfBoundsException
+2. ArrayIndexOutOfBoundsException
+3. IllegalStateException
+4. NullPointerException
+Answer: 2
+EASY
+
+Question: Exception_Handling
+Which exception is thrown if you try to access a method or field on a null object reference?
+1. NullPointerException
+2. IllegalStateException
+3. ArrayIndexOutOfBoundsException
+4. ArithmeticException
+Answer: 1
+EASY
+
+Question: Exception_Handling
+Which exception is thrown if a file that you are trying to read does not exist?
+1. FileNotFoundException
+2. IOException
+3. IllegalArgumentException
+4. NoSuchElementException
+Answer: 1
+MEDIUM
+
+Question: Exception_Handling
+Which exception is thrown when a method is invoked on an object that is not in the correct state to handle it?
+1. IllegalStateException
+2. NullPointerException
+3. UnsupportedOperationException
+4. IndexOutOfBoundsException
+Answer: 1
+MEDIUM
+
+Question: Binary_Search
+In binary search, if the target element is smaller than the middle element, which half of the array is searched?
+1. Left half.
+2. Right half.
+3. Both halves.
+4. None of the above.
+Answer: 1
+EASY
+
+Question: Binary_Search
+Binary search is better than linear search because:
+1. It is easier to implement.
+2. It requires fewer comparisons on average.
+3. It is memory-efficient.
+4. It works on unsorted data.
+Answer: 2
+MEDIUM
+
+Question: Data Structures
+Which data structure is most appropriate for implementing a stack?
+1. Queue
+2. Array
+3. HashMap
+4. Tree
+Answer: 2
+EASY
+
+Question: Inheritance
+Which of the following is NOT inherited by a subclass in Java?
+1. Public methods
+2. Private methods
+3. Protected methods
+4. Default methods from the same package
+Answer: 2
+MEDIUM
+
+Question: Polymorphism
+Which of the following statements best describes runtime polymorphism in Java?
+1. Method overloading within the same class.
+2. Using a method that takes multiple parameters.
+3. Overriding a method in a subclass.
+4. Overriding a constructor in a subclass.
+Answer: 3
+MEDIUM
+
+Question: Polymorphism
+Which of the following is a characteristic of method overloading?
+1. It occurs at runtime.
+2. Methods must have the same name and return type.
+3. Methods must have different parameter lists.
+4. It is an example of dynamic polymorphism.
+Answer: 3
+MEDIUM
+
+Question: Polymorphism
+How can polymorphism be achieved in Java?
+1. Using method overloading.
+2. Using method overriding.
+3. Using interfaces.
+4. All of the above.
+Answer: 4
+EASY
+
+Question: Polymorphism
+Which of the following statements about polymorphism is false?
+1. It allows a single interface to represent different data types.
+2. It is only applicable to abstract classes.
+3. It enables dynamic method dispatch.
+4. It is a fundamental feature of object-oriented programming.
+Answer: 2
+EASY
+
+Question: Polymorphism
+What is dynamic method dispatch?
+1. A process in which a call to an overridden method is resolved at compile time.
+2. A process in which a call to an overridden method is resolved at runtime.
+3. A process in which methods are bound to objects during compilation.
+4. None of the above.
+Answer: 2
+EASY
+
+Question: Abstract Classes
+Which of the following can an abstract class NOT have?
+1. Constructors
+2. Final methods
+3. Static methods
+4. Objects
+Answer: 4
+MEDIUM
+
+Question: GUI Basics
+Which of the following is used to create a button in a Java Swing GUI?
+1. JLabel
+2. JPanel
+3. JButton
+4. JTextField
+Answer: 3
+EASY
+
+Question: Anonymous Inner Class
+Which of the following is true about anonymous inner classes in Java?
+1. They can implement multiple interfaces.
+2. They can extend one class or implement one interface at a time.
+3. They can have constructors.
+4. They must be static.
+Answer: 2
+MEDIUM
+
+Question: Enums
+Which of the following methods is available in all enums in Java?
+1. compareTo()
+2. hashCode()
+3. ordinal()
+4. All of the above
+Answer: 4
+EASY
+
+Question: Generics
+What is the difference between `List<?>` and `List<Object>` in generics?
+1. List<?> can accept any type; List<Object> only accepts Object.
+2. They are the same.
+3. List<?> cannot store elements, but List<Object> can.
+4. List<?> is type-safe; List<Object> is not.
+Answer: 1
+MEDIUM
+
+Question: Generics
+Which of the following is NOT true about generics?
+1. Generics work with primitive types.
+2. Generics ensure type safety.
+3. Generics eliminate explicit typecasting.
+4. Generics improve code reusability.
+Answer: 1
+EASY
+
+Question: Generics
+What does `<T extends Number>` signify in a generic declaration?
+1. T must be a subclass of Number.
+2. T can only be a primitive type.
+3. T must implement the Number interface.
+4. T must be an interface.
+Answer: 1
+EASY
+
+Question: Exception_Handling
+Which exception is thrown if you try to cast an object to a subclass that it is not an instance of?
+1. ClassCastException
+2. IllegalStateException
+3. ClassNotFoundException
+4. UnsupportedOperationException
+Answer: 1
+EASY
+
+Question: Exception_Handling
+Which exception is thrown if a thread is interrupted while it is sleeping?
+1. InterruptedException
+2. IllegalThreadStateException
+3. ThreadInterruptedException
+4. IllegalStateException
+Answer: 1
+EASY
+
+Question: Exception_Handling
+Which exception is thrown when an attempt is made to use a data structure that does not contain an expected element?
+1. NoSuchElementException
+2. IllegalArgumentException
+3. ArrayIndexOutOfBoundsException
+4. ConcurrentModificationException
+Answer: 1
+MEDIUM
+
+Question: Exception_Handling
+Which exception is thrown when a program attempts to divide by zero?
+1. ArithmeticException
+2. IllegalStateException
+3. NullPointerException
+4. IOException
+Answer: 1
+EASY
+
+Question: Generics
+Which class is used for thread-safe collections with generics?
+1. ArrayList
+2. Vector
+3. HashSet
+4. CopyOnWriteArrayList
+Answer: 4
+MEDIUM
+
+Question: Generics
+Which of the following is NOT an advantage of using generics in Java?
+1. Code reusability
+2. Type safety
+3. Improved performance
+4. Eliminating explicit typecasting
+Answer: 3
+EASY
+
+Question: Recursion
+Which of the following is a base condition in recursion?
+1. A condition that terminates the recursion.
+2. A condition that calls the recursive function.
+3. A condition that avoids infinite loops.
+4. Both 1 and 3.
+Answer: 4
+MEDIUM
+
+Question: Recursion
+Which data structure is used by recursion internally?
+1. Array
+2. Stack
+3. Queue
+4. LinkedList
+Answer: 2
+EASY
+
+Question: Recursion
+What is the time complexity of a recursive function that makes two recursive calls in each step?
+1. O(n)
+2. O(2^n)
+3. O(n^2)
+4. O(log n)
+Answer: 2
+MEDIUM
+
+Question: Recursion
+What is tail recursion?
+1. A recursive function where the recursive call is the last operation.
+2. A recursive function that calls itself twice.
+3. A recursive function without a base case.
+4. None of the above.
+Answer: 1
+EASY
+
+Question: Recursion
+Which of the following is NOT an example of a recursive algorithm?
+1. Fibonacci sequence generation
+2. Binary search
+3. Factorial computation
+4. Depth-first search
+Answer: 2
+EASY
+
+Question: Data Structures
+What is the primary characteristic of a stack?
+1. First-In, First-Out (FIFO).
+2. Last-In, First-Out (LIFO).
+3. Always sorted.
+4. Always unsorted.
+Answer: 2
+EASY
+
+Question: Generics
+What is the main purpose of generics in Java?
+1. To enable dynamic typing.
+2. To allow code reusability with type safety.
+3. To improve performance.
+4. To eliminate explicit casting.
+Answer: 2
+EASY
+
+Question: Generics
+What does the wildcard `?` represent in generics?
+1. A specific data type.
+2. Any unknown data type.
+3. A type parameter.
+4. None of the above.
+Answer: 2
+EASY
+
+Question: Generics
+Which of the following is a valid declaration of a generic class?
+1. class Box<E> { }
+2. class Box<?> { }
+3. class Box<T> { }
+4. Both 1 and 3.
+Answer: 4
+EASY
+
+
+Question: Exception_Handling
+Which of the following is NOT a type of exception in Java?
+1. Checked Exception
+2. Unchecked Exception
+3. Synchronous Exception
+4. Runtime Exception
+Answer: 3
+MEDIUM
+
+Question: ArrayList
+Which method is used to check if an ArrayList contains a specific element?
+1. search()
+2. exists()
+3. contains()
+4. find()
+Answer: 3
+EASY
+
+Question: ArrayList
+What happens when you add an element to a full ArrayList in Java?
+1. It throws an exception.
+2. It automatically resizes.
+3. It replaces the last element.
+4. It appends the element without resizing.
+Answer: 2
+EASY
+
+Question: ArrayList
+Which method removes all elements from an ArrayList?
+1. clear()
+2. deleteAll()
+3. removeAll()
+4. reset()
+Answer: 1
+EASY
+
+Question: LinkedList
+Which of the following operations is more efficient in a LinkedList compared to an ArrayList?
+1. Searching for an element.
+2. Accessing an element at a specific index.
+3. Adding an element to the middle of the list.
+4. Traversing the list.
+Answer: 3
+MEDIUM
+
+Question: LinkedList
+Which interface does LinkedList implement apart from List?
+1. Queue
+2. Deque
+3. Both Queue and Deque
+4. None
+Answer: 3
+EASY
+
+Question: LinkedList
+What is the time complexity of adding an element to the tail of a LinkedList?
+1. O(1)
+2. O(n)
+3. O(log n)
+4. O(n^2)
+Answer: 1
+EASY
+
+Question: LinkedList
+Which of the following methods is used to remove the last occurrence of a specific element in a LinkedList?
+1. removeLast()
+2. removeLastOccurrence()
+3. remove()
+4. removeTail()
+Answer: 2
+MEDIUM
+
+Question: Sorting_Algorithms
+What is the key difference between Merge Sort and Quick Sort?
+1. Merge Sort is faster for smaller datasets.
+2. Merge Sort uses extra space, while Quick Sort is in-place.
+3. Merge Sort has a worst-case time complexity of O(n^2).
+4. Quick Sort is always slower than Merge Sort.
+Answer: 2
+HARD
+
+Question: Sorting_Algorithms
+Which of the following is a stable sorting algorithm?
+1. Merge Sort
+2. Quick Sort
+3. Heap Sort
+4. Selection Sort
+Answer: 1
+EASY
+
+Question: Sorting_Algorithms
+Which sorting algorithm performs poorly when the array size is very large?
+1. Selection Sort
+2. Merge Sort
+3. Quick Sort
+4. Insertion Sort
+Answer: 4
+MEDIUM
+
+Question: Sorting_Algorithms
+Which sorting algorithm works by repeatedly swapping adjacent elements if they are in the wrong order?
+1. Bubble Sort
+2. Insertion Sort
+3. Quick Sort
+4. Selection Sort
+Answer: 1
+EASY
+
+Question: Sorting_Algorithms
+What is the key difference between Insertion Sort and Selection Sort?
+1. Insertion Sort is faster for large datasets.
+2. Insertion Sort is adaptive; Selection Sort is not.
+3. Selection Sort is adaptive; Insertion Sort is not.
+4. Both perform equally.
+Answer: 2
+EASY
+
+Question: Binary_Search
+Which of the following cases will result in a binary search failing?
+1. The array is sorted in descending order.
+2. The array is unsorted.
+3. The array contains duplicate elements.
+4. Both 1 and 2.
+Answer: 4
+MEDIUM
+
+Question: Data Structures
+Which data structure is most suitable for implementing a priority queue?
+1. Stack
+2. HashMap
+3. Heap
+4. LinkedList
+Answer: 3
+MEDIUM
+
+Question: Exception_Handling
+Which keyword is used to explicitly throw an exception in Java?
+1. throws
+2. throw
+3. catch
+4. try
+Answer: 2
+EASY
+
+Question: Exception_Handling
+What is the purpose of the `throws` keyword in Java?
+1. To catch exceptions.
+2. To declare exceptions that can be thrown by a method.
+3. To throw exceptions manually.
+4. To suppress exceptions.
+Answer: 2
+EASY
+
+Question: Generics
+Which method signature correctly uses generics?
+1. public void print(List<E> list)
+2. public <T> void print(List<T> list)
+3. public void print(List<?> list)
+4. Both 2 and 3.
+Answer: 4
+EASY
+
+Question: Exception_Handling
+Which of the following is an example of a checked exception?
+1. IOException
+2. ArithmeticException
+3. NullPointerException
+4. ArrayIndexOutOfBoundsException
+Answer: 1
+MEDIUM
+
+Question: Exception_Handling
+What is the difference between `throw` and `throws`?
+1. `throw` declares an exception; `throws` throws it.
+2. `throws` declares an exception; `throw` throws it.
+3. Both are used interchangeably.
+4. None of the above.
+Answer: 2
+MEDIUM
+
+Question: Exception_Handling
+What is the purpose of the `finally` block in exception handling?
+1. To catch unhandled exceptions.
+2. To execute code regardless of exceptions.
+3. To suppress exceptions.
+4. To terminate the program.
+Answer: 2
+EASY
+
+Question: ArrayList
+Which method is used to insert an element at a specific index in an ArrayList?
+1. addAtIndex()
+2. insert()
+3. add()
+4. set()
+Answer: 3
+EASY
+
+Question: ArrayList
+What happens if you call `set()` on an index that does not exist in an ArrayList?
+1. The ArrayList is resized.
+2. It throws an IndexOutOfBoundsException.
+3. A new element is added.
+4. Nothing happens.
+Answer: 2
+EASY
+
+Question: ArrayList
+How does the `ArrayList` ensure efficient random access to its elements?
+1. By using linked nodes.
+2. By storing elements in a dynamic array.
+3. By sorting elements.
+4. By using hash-based indexing.
+Answer: 2
+EASY
+
+Question: ArrayList
+What is the initial capacity of an empty ArrayList created with the default constructor?
+1. 5
+2. 8
+3. 10
+4. 16
+Answer: 3
+EASY
+
+Question: LinkedList
+Which LinkedList method adds an element at the head of the list?
+1. add()
+2. addFirst()
+3. addHead()
+4. addToHead()
+Answer: 2
+EASY
+
+Question: LinkedList
+What happens when you call `removeFirst()` on an empty LinkedList?
+1. It throws a NoSuchElementException.
+2. It removes the last element.
+3. It does nothing.
+4. It returns null.
+Answer: 1
+MEDIUM
+
+Question: LinkedList
+Which of the following methods retrieves, but does not remove, the first element of a LinkedList?
+1. getFirst()
+2. peekFirst()
+3. first()
+4. both 1 and 2.
+Answer: 4
+EASY
+
+Question: LinkedList
+Which of the following operations has O(1) time complexity in a LinkedList?
+1. Adding an element to the end of the list.
+2. Adding an element to the beginning of the list.
+3. Accessing an element by index.
+4. Removing an element from the middle of the list.
+Answer: 2
+EASY
+
+Question: Sorting_Algorithms
+Which sorting algorithm is considered the most efficient for large datasets?
+1. Bubble Sort
+2. Merge Sort
+3. Insertion Sort
+4. Selection Sort
+Answer: 2
+EASY
+
+Question: Sorting_Algorithms
+Which sorting algorithm uses a divide-and-conquer strategy?
+1. Merge Sort
+2. Bubble Sort
+3. Selection Sort
+4. Insertion Sort
+Answer: 1
+EASY
+
+Question: Sorting_Algorithms
+What is the best-case time complexity of Quick Sort?
+1. O(n)
+2. O(n^2)
+3. O(n log n)
+4. O(log n)
+Answer: 3
+EASY
+
+Question: Sorting_Algorithms
+Which sorting algorithm is most efficient for nearly sorted arrays?
+1. Insertion Sort
+2. Merge Sort
+3. Quick Sort
+4. Bubble Sort
+Answer: 1
+MEDIUM
+
+Question: Sorting_Algorithms
+Which sorting algorithm has a space complexity of O(1)?
+1. Merge Sort
+2. Heap Sort
+3. Quick Sort
+4. Bubble Sort
+Answer: 2
+HARD
+
+Question: Binary_Search
+What happens if the binary search is performed on an unsorted list?
+1. It will always return incorrect results.
+2. It will throw an exception.
+3. The result is undefined.
+4. It will sort the list and then search.
+Answer: 3
+MEDIUM
+
+Question: Binary_Search
+What happens if you apply binary search on an unsorted array?
+1. It works fine.
+2. It always fails.
+3. It produces undefined behavior.
+4. It sorts the array first.
+Answer: 3
+MEDIUM
+
+Question: Binary_Search
+How many iterations will binary search perform on an array of size 1000 in the worst case?
+1. 8
+2. 9
+3. 10
+4. 12
+Answer: 3
+HARD
+
+Question: Binary_Search
+What is the advantage of recursive binary search over iterative binary search?
+1. Uses less memory.
+2. Easier to write and understand.
+3. Handles large datasets better.
+4. None of the above.
+Answer: 2
+EASY
+
+Question: Binary_Search
+Which of the following data structures cannot use binary search directly?
+1. LinkedList
+2. Array
+3. TreeSet
+4. ArrayList
+Answer: 1
+HARD
+
+Question: Data Structures
+Which of the following is a characteristic of a stack?
+1. First-In, First-Out (FIFO).
+2. Last-In, First-Out (LIFO).
+3. Always sorted.
+4. Always unsorted.
+Answer: 2
+EASY
+
+Question: Inheritance
+What keyword is used to call a parent class's constructor in Java?
+1. parent()
+2. this()
+3. super()
+4. base()
+Answer: 3
+EASY
+
+Question: Polymorphism
+Which of the following best describes method overloading?
+1. Methods with the same name but different return types.
+2. Methods with the same name and parameters.
+3. Methods with the same name but different parameter lists.
+4. Methods with different names but the same functionality.
+Answer: 3
+EASY
+
+Question: Polymorphism
+What is polymorphism in Java?
+1. Multiple methods with the same name but different arguments.
+2. The ability to define methods in a subclass that override methods in a parent class.
+3. Both 1 and 2.
+4. None of the above.
+Answer: 3
+EASY
+
+Question: Polymorphism
+Which of the following is an example of runtime polymorphism?
+1. Method overloading.
+2. Method overriding.
+3. Both 1 and 2.
+4. None of the above.
+Answer: 2
+EASY
+
+Question: Polymorphism
+Which of the following enables polymorphism in Java?
+1. Inheritance.
+2. Interfaces.
+3. Method overriding.
+4. All of the above.
+Answer: 4
+EASY
+
+Question: Polymorphism
+What is the purpose of method overriding?
+1. To define multiple methods with the same name but different arguments.
+2. To provide a specific implementation of a method in a subclass.
+3. To make the class abstract.
+4. To call the superclass method.
+Answer: 2
+EASY
+
+Question: Abstract Classes
+Which of the following statements is true about abstract classes in Java?
+1. They cannot have static methods.
+2. They cannot be extended.
+3. They can have both abstract and concrete methods.
+4. They cannot have constructors.
+Answer: 3
+EASY
+
+Question: GUI Basics
+Which method is used to make a JFrame visible in a Java Swing GUI?
+1. setDisplay(true)
+2. show(true)
+3. setVisible(true)
+4. display()
+Answer: 3
+EASY
+
+Question: Anonymous Inner Class
+Which of the following is NOT true about anonymous inner classes?
+1. They can be used to implement an interface.
+2. They can define static members.
+3. They are defined without a class name.
+4. They are declared and instantiated at the same time.
+Answer: 2
+MEDIUM
+
+Question: Enums
+What is the purpose of an enum in Java?
+1. To define a class with multiple data types.
+2. To define a collection of constants.
+3. To define a dynamically resizable array.
+4. To define a data structure for searching.
+Answer: 2
+EASY
+
+Question: Generics
+How do generics improve type safety in Java?
+1. By allowing multiple types in a single collection.
+2. By ensuring that only a specific type of object can be added to a collection.
+3. By converting primitive types to objects.
+4. By enabling runtime type checking.
+Answer: 2
+EASY
+
+Question: Recursion
+What is a key disadvantage of recursion?
+1. Reduced readability.
+2. Excessive memory usage due to the function call stack.
+3. Inefficiency compared to iteration.
+4. Both 2 and 3.
+Answer: 4
+MEDIUM
+
+Question: Exception_Handling
+Which of the following blocks is always executed in a try-catch-finally structure?
+1. try
+2. catch
+3. finally
+4. throws
+Answer: 3
+MEDIUM
+
+Question: Exception_Handling
+What is the superclass of all exceptions in Java?
+1. Object
+2. Exception
+3. Throwable
+4. RuntimeException
+Answer: 3
+EASY
+
+Question: Exception_Handling
+Which block is used to handle exceptions in Java?
+1. try
+2. catch
+3. finally
+4. throw
+Answer: 2
+EASY
+
+Question: Exception_Handling
+What happens if an exception is not caught in Java?
+1. The program crashes.
+2. The program terminates abruptly.
+3. The JVM handles it by printing the stack trace.
+4. It is ignored.
+Answer: 3
+EASY
+
+Question: Exception_Handling
+Which exception is thrown if you try to divide by zero in Java?
+1. ArithmeticException
+2. IllegalArgumentException
+3. IOException
+4. NullPointerException
+Answer: 1
+EASY
+
+Question: ArrayList
+Which of the following methods returns the number of elements in an ArrayList?
+1. size()
+2. count()
+3. length()
+4. capacity()
+Answer: 1
+EASY
+
+Question: ArrayList
+How can you synchronize an ArrayList?
+1. Use the Collections.synchronizedList() method.
+2. Use a synchronized block.
+3. Use a CopyOnWriteArrayList.
+4. All of the above.
+Answer: 4
+HARD
+
+Question: ArrayList
+What is the time complexity of adding an element to the end of an ArrayList?
+1. O(1) amortized.
+2. O(n).
+3. O(log n).
+4. O(n^2).
+Answer: 1
+EASY
+
+Question: LinkedList
+What is the primary advantage of using a LinkedList over an ArrayList?
+1. Random access to elements.
+2. Faster iteration.
+3. Faster insertion and deletion operations.
+4. Both 2 and 3.
+Answer: 3
+EASY
+
+Question: LinkedList
+Which LinkedList method adds an element at a specific index?
+1. insert()
+2. addAtIndex()
+3. add(int index, E element)
+4. addIndex()
+Answer: 3
+EASY
+
+Question: LinkedList
+What does the method `pollFirst()` do in a LinkedList?
+1. Removes the first element and returns it.
+2. Retrieves the first element without removing it.
+3. Removes and returns the last element.
+4. Clears the LinkedList.
+Answer: 1
+EASY
+
+Question: LinkedList
+How is a LinkedList implemented internally in Java?
+1. Dynamic array.
+2. Array of linked nodes.
+3. Doubly linked nodes.
+4. Tree structure.
+Answer: 3
+MEDIUM
+
+Question: Binary_Search
+In binary search, what happens when the target element equals the middle element?
+1. The element is found.
+2. The left half is searched.
+3. The right half is searched.
+4. Both halves are searched.
+Answer: 1
+EASY
+
+Question: Binary_Search
+How does binary search differ from linear search?
+1. Binary search always searches from left to right.
+2. Binary search only works on sorted arrays.
+3. Binary search takes longer for small arrays.
+4. None of the above.
+Answer: 2
+EASY
+
+Question: Exception_Handling
+Which exception is thrown when an operation is not supported by a collection?
+1. UnsupportedOperationException
+2. IllegalStateException
+3. IndexOutOfBoundsException
+4. IllegalArgumentException
+Answer: 1
+MEDIUM
+
+Question: Exception_Handling
+Which exception is thrown when a class definition cannot be found at runtime?
+1. ClassNotFoundException
+2. ClassCastException
+3. NoSuchElementException
+4. NullPointerException
+Answer: 1
+HARD
